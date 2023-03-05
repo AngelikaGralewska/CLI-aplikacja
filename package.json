@@ -1,0 +1,19 @@
+{
+  "name": "cli-aplikacja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "author": "Angelika Gralewska",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "commander": "^10.0.0"
+  }
+}
